@@ -1,9 +1,9 @@
 import './App.css'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Profile from './components/Profile'
+import { Header } from './components/Header'
+import { Navbar } from './components/Navbar'
+import { Profile } from './components/Profile/Profile'
 
-function App() {
+export default function App() {
     return (
         <div className="app-wrapper">
             <Header />
@@ -14,5 +14,3 @@ function App() {
         </div>
     )
 }
-
-export default App

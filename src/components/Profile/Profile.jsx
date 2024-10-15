@@ -1,4 +1,6 @@
-function Profile() {
+import './Profile.css'
+
+export function Profile() {
     return (
         <div className="content">
             <div>
@@ -20,5 +22,3 @@ function Profile() {
         </div>
     )
 }
-
-export default Profile
