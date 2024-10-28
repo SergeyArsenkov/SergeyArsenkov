@@ -10,13 +10,14 @@
     padding: 10px 20px;
 }
 
-.headerImg {
+.header img {
     width: 80px;
-    height: 100%;
+    height: 90%;
     transition: transform 0.3s ease;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.headerImg:hover {
+.header img:hover {
     transform: scale(1.1);
 }
