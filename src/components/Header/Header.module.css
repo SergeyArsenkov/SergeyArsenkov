@@ -7,17 +7,17 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     height: 60px;
-    z-index: 1000;
     padding: 10px 20px;
 }
 
-.headerImg {
+.header img {
     width: 80px;
-    height: 100%;
+    height: 90%;
     transition: transform 0.3s ease;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.headerImg:hover {
+.header img:hover {
     transform: scale(1.1);
 }

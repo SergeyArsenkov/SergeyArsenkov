@@ -1,0 +1,6 @@
+.content {
+    flex: 1;
+    background-color: #fff;
+    margin-left: 10px;
+    max-width: 100%;
+}

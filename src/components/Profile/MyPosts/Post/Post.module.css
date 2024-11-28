@@ -1,0 +1,6 @@
+.item img {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid grey;
+}

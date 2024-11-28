@@ -1,9 +1,10 @@
 import './App.css'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Profile from './components/Profile'
+import { Dialogs } from './components/Dialogs/Dialogs'
+import { Header } from './components/Header'
+import { Navbar } from './components/Navbar'
+import { Profile } from './components/Profile/Profile'
 
-function App() {
+export default function App() {
     return (
         <div className="app-wrapper">
             <Header />
@@ -11,8 +12,9 @@ function App() {
                 <Navbar />
                 <Profile />
             </div>
+            <div className="app-wrapper-content">
+                <Dialogs />
+            </div>
         </div>
     )
 }
-
-export default App
